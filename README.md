@@ -23,4 +23,5 @@ pip install opencv-python
     "eject": "react-scripts eject",
     "start-react": "react-scripts start",
     "start-python": "python3 src/age_detection/main.py"
+    <!-- python3를 사용하고 있다면 '... "python3 src/..." -->
   }
