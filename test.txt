@@ -1,0 +1,41 @@
+import "./App.css";
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
+import Main from "./components/Main";
+import Menu from "./components/Menu";
+import Size from "./components/Size";
+import Temperature from "./components/Temperature";
+import Category from "./components/Category";
+import Payment from "./components/Payment";
+
+function App() {
+let age = 'a';
+
+  return (
+    <Router>
+      <div className="app">
+        <div className="app__header">
+          <div>
+            <p className="app__header_first">
+              A TWOSOME PLACE
+            </p>
+            <p className="app__header_second">COFFEE & DESSERT</p>
+          </div>
+        </div>
+        <div className="app__body">
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/menu" element={<Menu />} />
+            <Route path="/size" element={<Size />} />
+            <Route path="/temperature" element={<Temperature />} />
+            <Route path="/payment" element={<Payment />} />
+            <Route path="/category" element={<Category />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+export default App;

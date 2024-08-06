@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.setting {
+    background-color: #FFFBF8;
+    height: 70vmin;
+    width: 50vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 18vmin;
+    width: 45vmin;
+    color: black;
+    border: 1.5px solid black;
+
+}
+
+.temperture {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 20vmin;
+    width: 80vmin;
+    color: black;
+}
+
+.setting__choice {
+    height: 5%;
+    width: 100%;
+    /* Adjusted to take full width */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menus_size_option {
+    border: 1.5px solid black;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vmin;
+    width: 15vmin;
+    margin: 0 1em;
+}
+
+.menus_size_option_back {
+    border: 1.5px solid black;
+    border-radius: 25%;
+    /* padding: 0.3em 1em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: auto;
+    height: 50px;  */
+    height: 8vmin;
+    width: 15vmin;
+
+}
+
+.menus_size_option_payment_button {
+    border: 1.5px solid black;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vmin;
+    width: 15vmin;
+    margin: 0 1em;
+}
+
+.pay {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.menus_size_options {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.menus_size_option:hover {
+    background-color: #D71E3E;
+    color: white;
+}
+
+.menus_size_name {
+    align-self: flex-start;
+    margin-left: 1em;
+}
+
+.link_option {
+    color: black;
+}
+
+.option_link {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.menu__body__box_size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #55565B 1.5px solid;
+    height: 28vmin;
+    width: 40vmin;
+    text-decoration: none;
+    border-radius: 10%;
+    margin: 1em 1em;
+}
+
+.bold_font {
+    font-weight: 900;
+}
+
+.payment_font {
+    color: black;
+    font-weight: 900;
+
+}
+
+.menus_size_option_payment {
+    background-color: aqua;
+    width: 100%;
+}
